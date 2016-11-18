@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/java_test_selenium.iml" filepath="$PROJECT_DIR$/.idea/java_test_selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sel-web-test.iml" filepath="$PROJECT_DIR$/.idea/modules/sel-web-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sel-web-test_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sel-web-test_main.iml" group="sel-web-test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sel-web-test_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sel-web-test_test.iml" group="sel-web-test" />
     </modules>
   </component>
 </project>
