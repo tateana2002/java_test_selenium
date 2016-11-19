@@ -25,7 +25,7 @@ public class MyFirstTest {
    @Test
     public void myFirstTest() {
        driver.get("http://www.google.co.il/");
-       driver.findElement(By.name("g")).sendKeys("webdriver");
+       driver.findElement(By.name("q")).sendKeys("webdriver");
        driver.findElement(By.name("btnG")).click();
        wait.until(titleIs("webdriver - Поиск в Google"));
 
