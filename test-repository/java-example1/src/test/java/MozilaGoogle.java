@@ -30,9 +30,7 @@ public class MozilaGoogle {
         wd.get("https://www.google.co.il/?gfe_rd=cr&ei=VfguWKvLBqXH8AfLqbzIDg");
         wd.findElement(By.id("gb")).click();
         wd.findElement(By.name("btnK")).click();
-        wd.findElement(By.name("btnK")).click();
         wd.findElement(By.id("lst-ib")).click();
-        wd.findElement(By.id("lst-ib")).clear();
         wd.findElement(By.id("lst-ib")).sendKeys("погода в москве");
         wd.findElement(By.cssSelector("div.sbqs_c")).click();
     }
